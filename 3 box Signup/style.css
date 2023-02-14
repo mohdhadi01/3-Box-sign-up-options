@@ -1,0 +1,74 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    
+}
+.container{
+    background-color: rgb(245, 239, 239);
+    font-weight: 100;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    padding: 90px;
+
+    
+}
+.box1{
+    text-align: center;
+    border: 1px solid rgb(216, 204, 204);
+    width: 23%;
+    
+}
+.box2{
+   
+    text-align: center;
+    border: 1px solid rgb(216, 204, 204);
+    width: 23%;
+}
+.box3{
+    text-align: center;
+    border: 1px solid rgb(216, 204, 204);
+    width: 23%;
+}
+.basic{
+    
+    background-color: black;
+    color: white;
+}
+.pro{
+    
+    background-color: rgb(111, 107, 107);
+    color: white;
+}
+.premium{
+    
+    background-color: black;
+    color: white;
+}
+.sign{
+    
+    background-color: #f1f1f1;
+}
+button{
+    margin-top: 28px;
+    margin-bottom: 0px;
+    color: white;
+    border: 1px solid #67ad5b;
+    background-color: #67ad5b;
+    
+    width: 100px;
+    height: 40px;
+}
+hr {
+     display: block;
+    border-top: 1px solid rgb(221, 215, 215);
+     }
+.hey{
+    margin-top: 14px;
+}
+.box1:hover,.box2:hover,.box3:hover{
+    transition: 0.7s;
+    transform: scale(1.01);
+    box-shadow: 0 0 10px 0;
+
+}
